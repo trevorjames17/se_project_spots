@@ -7,15 +7,39 @@
     <meta name="description" content="This is the website for..." />
     <meta name="author" content="Trevor Montgomery" />
     <meta name="keywords" content="n/a" />
-    <title>Spots App</title>
+    <title>Spots</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
 
   <body>
     <div class="page">
-      <header class="header"></header>
-      <main class="content"></main>
+      <header class="header">
+        <img src="./images/Logo.svg" alt="Spot Logo" class="header__logo" />
+      </header>
+
+      <main class="content">
+        <section class="profile page__section">
+          <img
+            src="./images/avatar.jpg"
+            alt="Bessie Coleman"
+            class="profile__avatar"
+          />
+          <div class="profile__column">
+            <h1 class="profile__name">Bessie Coleman</h1>
+            <p class="profile__description">Civil Aviator</p>
+            <button class="profile__edit-button">
+              <img src="./images/Edit_Pencil.svg" alt="Edit Pencil" />
+              Edit Profile
+            </button>
+          </div>
+          <button class="profile__add-button">
+            <img src="./images/Plus_Symbol.svg" alt="Plus Symbol" />
+            New Post
+          </button>
+        </section>
+      </main>
+
       <footer class="footer"></footer>
     </div>
   </body>
