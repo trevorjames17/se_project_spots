@@ -6,4 +6,5 @@
 .page__section {
   max-width: 1280px;
   margin: 0 auto;
+  /* This styling keeps everything centered within the correct width */
 }
