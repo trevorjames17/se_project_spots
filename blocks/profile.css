@@ -69,18 +69,31 @@
     max-width: 288px;
     align-items: center;
     text-align: center;
+    padding-top: 20px;
   }
 
   .profile__avatar {
     margin-right: 0;
     height: 80px;
     width: 80px;
+    padding-bottom: 12px;
+  }
+
+  .profile__title {
+    margin-bottom: 0;
+    padding-bottom: 6px;
+    font-size: 20px;
+  }
+
+  .profile__description {
+    padding-bottom: 32px;
   }
 
   .profile__edit-button {
     margin: 0;
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
   }
 
   .profile__add-button {
