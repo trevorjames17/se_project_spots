@@ -8,3 +8,10 @@
   margin: 0 auto;
   /* This styling keeps everything centered within the correct width */
 }
+
+@media screen and (max-width: 627px) {
+  .page__section {
+    max-width: 627px;
+    margin: 0 auto;
+  }
+}

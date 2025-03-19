@@ -8,6 +8,8 @@
 
 .profile__avatar {
   margin-right: 20px;
+  height: 190px;
+  width: 190px;
 }
 
 .profile__column {
@@ -59,4 +61,31 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1;
+}
+
+@media screen and (max-width: 627px) {
+  .profile {
+    flex-direction: column;
+    max-width: 288px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile__avatar {
+    margin-right: 0;
+    height: 80px;
+    width: 80px;
+  }
+
+  .profile__edit-button {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .profile__add-button {
+    margin: 0;
+    width: 288px;
+    height: 52px;
+  }
 }

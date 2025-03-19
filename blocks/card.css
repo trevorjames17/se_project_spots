@@ -32,3 +32,14 @@
   background-color: transparent;
   opacity: 0.4;
 }
+
+@media screen and (max-width: 627px) {
+  .card {
+    max-width: 288px;
+  }
+
+  .card__image {
+    width: 288px;
+    height: 288px;
+  }
+}

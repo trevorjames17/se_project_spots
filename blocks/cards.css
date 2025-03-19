@@ -14,3 +14,12 @@
   justify-content: center;
   gap: 40px 20px;
 }
+
+@media screen and (max-width: 627px) {
+  .cards__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
