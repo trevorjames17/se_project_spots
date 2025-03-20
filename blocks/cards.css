@@ -1,7 +1,6 @@
 .cards {
   padding: 20px 0 40px 0;
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
-  font-family: Poppins_Medium, "Arial", "sans-serif";
 }
 
 .cards__list {
@@ -16,6 +15,12 @@
 }
 
 @media screen and (max-width: 627px) {
+  .cards {
+    padding: 20px 0 60px;
+    border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
+    width: 288px;
+  }
+
   .cards__list {
     display: flex;
     flex-direction: column;
