@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 627px) {
   .cards {
-    padding: 20px 0 60px;
+    padding: 20px 0;
     border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
     width: 288px;
   }
@@ -24,7 +24,7 @@
   .cards__list {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    gap: 20px;
   }
 }

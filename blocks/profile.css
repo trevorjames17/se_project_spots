@@ -55,6 +55,7 @@
   border: none;
   opacity: 70%;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1;
   cursor: url(../images/Pointer_Finger.svg), pointer;
 }
@@ -71,8 +72,10 @@
   align-items: center;
   gap: 8px;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1;
   cursor: url(../images/Pointer_Finger.svg), pointer;
+  border: 0;
 }
 
 .profile__edit-button:hover {
@@ -96,7 +99,6 @@
     margin-right: 0;
     height: 80px;
     width: 80px;
-    border-radius: 8px;
     object-fit: cover;
   }
 
@@ -113,7 +115,6 @@
 
   .profile__edit-button {
     margin: 0;
-    display: flex;
     justify-content: center;
     padding-bottom: 20px;
   }
